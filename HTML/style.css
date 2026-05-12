@@ -1,0 +1,227 @@
+body {
+	font-family: Arial; 
+	margin:0; 
+	background:#0f172a; 
+	color:#e5e7eb; 
+	line-height:1.7;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+header {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(30,58,138,0.6)),
+        url("images/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+
+.logo-header {display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    gap:15px;}
+.logo-header img {width:60px;}
+
+
+
+
+
+h1 {margin:0;}
+
+
+
+
+
+nav {background:#020617; 
+    padding:15px; 
+    text-align:center;}
+
+nav a {color:#e5e7eb; 
+    margin:10px; 
+    text-decoration:none;}
+nav a:hover {color:#38bdf8;}
+nav a.active {color:#38bdf8; 
+    font-weight:bold;}
+
+nav {
+    background: #020617;
+    padding: 15px;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+
+section {padding:40px; 
+    margin:25px; 
+    background:#020617; 
+    border-radius:15px; 
+    box-shadow:0 0 20px rgba(0,0,0,0.5);}
+
+
+
+
+
+h2 {color:#38bdf8;}
+
+
+
+
+
+table {width:100%; border-collapse:collapse; margin-top:20px;}
+th,td {border:1px solid #334155; padding:10px;}
+th {background:#1e3a8a;}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    margin-top: auto;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery a {
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 250px; /* однакова висота для всіх */
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* обрізає без спотворення */
+    display: block;
+
+    transition: transform 0.4s ease;
+}
+
+.gallery a:hover img {
+    transform: scale(1.05);
+}
+
+
+body {
+    margin: 0;
+    padding: 40px; /* відступи від країв сторінки */
+    box-sizing: border-box;
+}
+
+
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Співвідношення сторін 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto; /* Центрування */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Анімація сторінки */
+/*
+body {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+body.fade-in { 
+   opacity: 1; 
+}
+
+body.fade-out {
+    opacity: 0;
+}
+*/
+
+
+
+/*
+.photos {
+    display: flex;
+    justify-content: space-between; /* одна зліва, друга справа */
+ /*   align-items: center;
+}
+
+.photos figure {
+    margin: 20px; /* відступи навколо картинок */
+}
+
+/*.photos img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px; /* внутрішній відступ */
+  /*  background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+*/
+
+
+
+/*iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+}
+*/

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>BMW4</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo-header">
+<img src="images/logo.png">
+<h1>BMW</h1>
+</div>
+<p>Діяльність</p>
+</header>
+
+<nav>
+<a href="BMW1.html">Створення</a>
+<a href="BMW2.html">Історія</a>
+<a href="BMW3.html">Емблема</a>
+<a href="BMW4.html" class="active">Діяльність</a>
+<a href="BMW5.html">Змагання</a>
+<a href="BMW6.html">Моделі</a>
+<a href="BMW7.html">Галерея</a>
+</nav>
+
+<section>
+
+<h2>Діяльність компанії</h2>
+
+<p>BMW Group є міжнародним концерном, який об’єднує бренди BMW, MINI та Rolls-Royce. Основні напрями діяльності включають розробку, виробництво та продаж легкових автомобілів преміум-класу, мотоциклів, а також фінансові та мобільні сервіси.</p>
+
+<p><b>Автомобілі.</b> Компанія пропонує широкий спектр моделей — від компактних хетчбеків до представницьких седанів і позашляховиків. Особлива увага приділяється динаміці, керованості та якості інтер’єру.</p>
+
+<p><b>Електрифікація.</b> Лінійка BMW i включає повністю електричні моделі (i3, i4, iX, i7) та гібриди. Розробляються нові акумуляторні технології та платформи.</p>
+
+<p><b>Інновації.</b> BMW інвестує у штучний інтелект, системи допомоги водію, автономне водіння та підключені сервіси (ConnectedDrive). Автомобілі отримують оновлення «по повітрю» та інтеграцію зі смартфонами.</p>
+
+<p><b>Екологія.</b> Компанія впроваджує стратегії сталого розвитку: використання відновлюваної енергії, переробка матеріалів, зниження вуглецевого сліду по всьому життєвому циклу продукту.</p>
+
+<p><b>Фінансові послуги.</b> BMW Financial Services пропонує лізинг, кредитування та страхування, що розширює доступність продукції для клієнтів у різних країнах.</p>
+</section>
+
+<section>
+<h2>Глобальна присутність</h2>
+
+<p>BMW має виробничі підприємства та дослідницькі центри в багатьох країнах світу, включаючи Німеччину, США, Китай, Південну Африку та інші регіони. Така широка географія дозволяє компанії ефективно реагувати на потреби локальних ринків і забезпечувати високу якість продукції.</p>
+
+<p>Компанія активно розвиває міжнародну співпрацю, укладає партнерства з технологічними компаніями та інвестує у стартапи, пов’язані з мобільністю майбутнього. Це сприяє швидкому впровадженню інновацій та зміцненню позицій BMW на світовому ринку.</p>
+
+<p>Завдяки глобальній стратегії BMW залишається конкурентоспроможною та здатною адаптуватися до змін у автомобільній індустрії.</p>
+</section>
+
+<section>
+    <h2>Виробництво BMW</h2>
+
+    <a class="video-link"
+       href="https://www.youtube.com/watch?v=xFiOeiY95uE"
+       target="_blank">
+
+        <!-- Автоматичне прев'ю з YouTube -->
+        <img src="https://img.youtube.com/vi/xFiOeiY95uE/maxresdefault.jpg"
+             alt="BMW Video Preview">
+
+        <!-- Кнопка Play -->
+        <div class="play-button">▶</div>
+    </a>
+</section>
+
+<style>
+.video-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.video-link img {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover ефект */
+.video-link:hover img {
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+/* Кнопка Play */
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+    
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 40px;
+    
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover для кнопки */
+.video-link:hover .play-button {
+    background: rgba(255, 0, 0, 1);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+</style>
+
+
+
+<footer><p>BMW © 2026</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

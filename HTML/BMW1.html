@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BMW1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-header">
+            <img src="images/logo.png">
+            <h1>BMW (Bayerische Motoren Werke)</h1>
+        </div>
+
+        <p>Історія, діяльність та модельний ряд</p>
+    </header>
+
+    <nav>
+        <a href="BMW1.html" class="active">Створення</a>
+        <a href="BMW2.html">Історія</a>
+        <a href="BMW3.html">Емблема</a>
+        <a href="BMW4.html">Діяльність</a>
+        <a href="BMW5.html">Змагання</a>
+        <a href="BMW6.html">Моделі</a>
+        <a href="BMW7.html">Галерея</a>
+    </nav>
+
+    <section>
+        <h2>Назва та створення</h2>
+
+        <p>
+            BMW (Bayerische Motoren Werke AG) була заснована у 1916 році в Мюнхені
+            (Баварія, Німеччина) як підприємство з виробництва авіаційних двигунів.
+            Назва компанії перекладається як «Баварські моторні заводи» і відображає
+            як географічне походження, так і технічну спеціалізацію. Витоки компанії
+            пов’язані з фірмами Rapp Motorenwerke та Otto Flugmaschinenfabrik, які
+            об’єднали інженерні ресурси для створення надійних силових агрегатів.
+        </p>
+
+        <p>
+            У перші роки існування BMW працювала в умовах високої конкуренції та
+            швидкого розвитку авіації. Компанія інвестувала у дослідження матеріалів,
+            точну механіку та випробування двигунів. Вже тоді сформувалися ключові
+            принципи бренду: інженерна точність, продуктивність і надійність.
+            Саме ці принципи згодом стали основою для переходу до автомобільної галузі.
+        </p>
+
+        <p>
+            Після Першої світової війни Версальський договір заборонив Німеччині
+            виробляти авіаційні двигуни, що змусило BMW кардинально змінити стратегію.
+            Компанія тимчасово перейшла до виробництва гальм, сільськогосподарської
+            техніки та мотоциклів. Цей період став фундаментом диверсифікації бізнесу
+            та пошуку нових ринків.
+        </p>
+
+        <p>
+            У 1920-х роках BMW закріпилася як виробник мотоциклів, а з 1928 року —
+            і автомобілів. Відтоді компанія поступово перетворювалася на
+            багатопрофільного виробника транспортних засобів преміум-класу.
+            Сьогодні BMW — глобальний концерн із тисячами співробітників і
+            виробничими майданчиками по всьому світу.
+        </p>
+    </section>
+
+    <section>
+        <h2>Перші досягнення</h2>
+
+        <p>
+            Одним із перших значних досягнень BMW стало встановлення світового
+            рекорду висоти польоту у 1919 році за допомогою авіаційного двигуна BMW.
+            Це підтвердило високий рівень інженерних рішень компанії.
+        </p>
+
+        <p>
+            У 1920-х роках BMW швидко здобула репутацію виробника надійної техніки,
+            що стало основою для подальшого розвитку бренду. Компанія активно
+            вдосконалювала свої технології та розширювала асортимент продукції.
+        </p>
+    </section>
+
+
+
+
+  <section>
+    <h2>Відео про BMW</h2>
+
+    <a class="video-link"
+       href="https://www.youtube.com/watch?v=6elUIEeHbMo"
+       target="_blank">
+
+        <!-- Автоматичне прев'ю з YouTube -->
+        <img src="https://img.youtube.com/vi/6elUIEeHbMo/maxresdefault.jpg"
+             alt="BMW Video Preview">
+
+        <!-- Кнопка Play -->
+        <div class="play-button">▶</div>
+    </a>
+</section>
+
+<style>
+.video-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.video-link img {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover ефект */
+.video-link:hover img {
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+/* Кнопка Play */
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+    
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 40px;
+    
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover для кнопки */
+.video-link:hover .play-button {
+    background: rgba(255, 0, 0, 1);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+</style>
+
+
+
+    <footer>
+        <p>BMW © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

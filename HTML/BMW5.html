@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>BMW5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo-header">
+<img src="images/logo.png">
+<h1>BMW</h1>
+</div>
+<p>Змагання</p>
+</header>
+
+<nav>
+<a href="BMW1.html">Створення</a>
+<a href="BMW2.html">Історія</a>
+<a href="BMW3.html">Емблема</a>
+<a href="BMW4.html">Діяльність</a>
+<a href="BMW5.html" class="active">Змагання</a>
+<a href="BMW6.html">Моделі</a>
+<a href="BMW7.html">Галерея</a>
+</nav>
+
+<section>
+
+<h2>Участь BMW у змаганнях</h2>
+
+<p>BMW має довгу та успішну історію участі в автоспорті. Компанія використовує змагання як платформу для випробування нових технологій, підвищення надійності та демонстрації інженерних можливостей.</p>
+
+<p><b>DTM (Deutsche Tourenwagen Masters).</b> BMW є одним із ключових учасників цієї серії. Автомобілі, такі як BMW M4 DTM, неодноразово здобували перемоги та чемпіонські титули. Участь у DTM дозволяє вдосконалювати аеродинаміку та динамічні характеристики серійних моделей.</p>
+
+<p><b>24 години Ле-Мана.</b> BMW брала участь у легендарній гонці на витривалість, де важливими є не лише швидкість, а й надійність. У 1999 році BMW V12 LMR здобув перемогу, що стало важливою віхою в історії компанії.</p>
+
+<p><b>Formula E.</b> У сучасну епоху електрифікації BMW бере участь у чемпіонаті Formula E — серії для електричних болідів. Це дозволяє компанії тестувати електродвигуни, батареї та системи рекуперації енергії.</p>
+
+<p><b>GT Racing.</b> BMW активно виступає в категорії GT (Gran Turismo), де представлені моделі, близькі до серійних автомобілів. Такі машини, як BMW M6 GT3 та M4 GT4, використовуються в міжнародних чемпіонатах.</p>
+
+<p>Загалом участь у автоспорті є важливою складовою стратегії BMW. Вона сприяє розвитку технологій, підвищує імідж бренду та дозволяє переносити гоночні інновації у серійне виробництво.</p>
+
+</section>
+
+<section>
+
+<h2>Вплив автоспорту на серійні автомобілі</h2>
+
+<p>Технології, розроблені в автоспорті, активно впроваджуються у серійні моделі BMW. Це стосується двигунів, систем охолодження, підвіски та аеродинаміки. Наприклад, багато рішень із гоночних автомобілів згодом використовуються у моделях BMW M.</p>
+
+<p>Автоспорт також сприяє підвищенню безпеки автомобілів. Системи стабілізації, гальмування та контролю тяги проходять випробування в екстремальних умовах, що дозволяє зробити їх більш ефективними у повсякденному використанні.</p>
+
+<p>Таким чином, участь у змаганнях не лише підвищує престиж бренду, а й має практичну користь для розвитку технологій.</p>
+
+</section>
+
+<section>
+    <h2>Змагання BMW</h2>
+
+    <a class="video-link"
+       href="https://www.youtube.com/watch?v=8BaBVVH6qHY"
+       target="_blank">
+
+        <!-- Автоматичне прев'ю з YouTube -->
+        <img src="https://img.youtube.com/vi/8BaBVVH6qHY/maxresdefault.jpg"
+             alt="BMW Video Preview">
+
+        <!-- Кнопка Play -->
+        <div class="play-button">▶</div>
+    </a>
+</section>
+
+<style>
+.video-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.video-link img {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover ефект */
+.video-link:hover img {
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+/* Кнопка Play */
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover для кнопки */
+.video-link:hover .play-button {
+    background: rgba(255, 0, 0, 1);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+</style>
+
+
+
+<footer><p>BMW © 2026</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
